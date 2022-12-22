@@ -39,7 +39,6 @@
             this.buttonWater = new System.Windows.Forms.Button();
             this.buttonPlay = new System.Windows.Forms.Button();
             this.labelMessage = new System.Windows.Forms.Label();
-            this.buttonRestart = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -143,23 +142,11 @@
             this.labelMessage.TabIndex = 10;
             this.labelMessage.Text = "Meet Soramame. Your new frog.";
             // 
-            // buttonRestart
-            // 
-            this.buttonRestart.Location = new System.Drawing.Point(161, 324);
-            this.buttonRestart.Name = "buttonRestart";
-            this.buttonRestart.Size = new System.Drawing.Size(51, 23);
-            this.buttonRestart.TabIndex = 11;
-            this.buttonRestart.Text = "Restart";
-            this.buttonRestart.UseVisualStyleBackColor = true;
-            this.buttonRestart.Visible = false;
-            this.buttonRestart.Click += new System.EventHandler(this.buttonRestart_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(224, 356);
-            this.Controls.Add(this.buttonRestart);
             this.Controls.Add(this.labelMessage);
             this.Controls.Add(this.buttonPlay);
             this.Controls.Add(this.buttonWater);
@@ -175,7 +162,6 @@
             this.Name = "Form1";
             this.ShowIcon = false;
             this.Text = "Soramame-dachi";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -195,6 +181,5 @@
         private Button buttonWater;
         private Button buttonPlay;
         private Label labelMessage;
-        private Button buttonRestart;
     }
 }
